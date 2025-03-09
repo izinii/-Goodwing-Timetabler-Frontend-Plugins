@@ -7,7 +7,7 @@ from openpyxl import load_workbook
 
 
 # Load the original Excel file
-excel_file_name = "output_test.xlsx" # Name of the Excel file
+excel_file_name = "visual_timetable.xlsx" # Name of the Excel file
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")) # Find the root directory of the project dynamically
 file_path = os.path.join(project_root, "Goodwing-Timetabler", "Outputs", "excel", excel_file_name) # Construct the correct absolute path

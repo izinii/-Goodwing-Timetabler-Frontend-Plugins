@@ -1,0 +1,131 @@
+==== SCHEDULING INTELLIGENCE REPORT ====
+
+
+1. CONFLICT ANALYSIS
+   - Room Overlaps: 14
+     * Timeslot 0, Room L104:
+       - Advanced Maths (A2_TDB)
+       - Mechanical Systems (A3_TDC)
+     * Timeslot 28, Room L105:
+       - Advanced Maths (A2_TDB)
+       - Mechanical Systems (A3_TDC)
+     * Timeslot 203, Room L105:
+       - Advanced Physics (A2_TDB)
+       - Artificial Intelligence (A3_TDC)
+     * Timeslot 211, Room L106:
+       - Basic Informatics (A1_TDA)
+       - Advanced Physics (A2_TDB)
+     * Timeslot 211, Room L106:
+       - Basic Informatics (A1_TDA)
+       - Quantum Mechanics (A3_TDC)
+     * Timeslot 211, Room L106:
+       - Advanced Physics (A2_TDB)
+       - Quantum Mechanics (A3_TDC)
+     * Timeslot 248, Room L105:
+       - Advanced Maths (A2_TDB)
+       - Genetics (A3_TDC)
+     * Timeslot 274, Room L106:
+       - Basic Physics (A1_TDA)
+       - Advanced Physics (A2_TDB)
+     * Timeslot 277, Room L106:
+       - Advanced Chemistry (A2_TDB)
+       - Applied Mathematics (A3_TDC)
+     * Timeslot 301, Room L105:
+       - Advanced Informatics (A2_TDB)
+       - Organic Chemistry (A3_TDC)
+     * Timeslot 315, Room L104:
+       - Basic Physics (A1_TDA)
+       - Applied Mathematics (A3_TDC)
+     * Timeslot 316, Room L104:
+       - Basic Engineering (A1_TDA)
+       - Applied Mathematics (A3_TDC)
+     * Timeslot 322, Room L105:
+       - Advanced Physics (A2_TDB)
+       - Mechanical Systems (A3_TDC)
+     * Timeslot 323, Room L105:
+       - Advanced Chemistry (A2_TDB)
+       - Mechanical Systems (A3_TDC)
+   - Teacher Overlaps: 1
+     * Timeslot 273, Teacher Poussin:
+       - Basic Chemistry (A1_TDA)
+       - Advanced Chemistry (A2_TDB)
+
+2. RESOURCE UTILIZATION
+   Top 3 Most Used Rooms:
+     * L105: 66 courses
+     * L106: 42 courses
+     * L104: 41 courses
+   Top 3 Most Used Teachers:
+     * Doe: 30 courses
+     * Cerfbeer: 28 courses
+     * Vannier: 20 courses
+
+3. TIMESLOT DISTRIBUTION
+   Top 3 Most Used Timeslots:
+     * Timeslot 251: 3 courses
+     * Timeslot 309: 3 courses
+     * Timeslot 126: 3 courses
+
+4. PENALTY BREAKDOWN
+   - Conflict Penalties: 15 (2.5% of total)
+   - Balance Penalties: 561 (94.9% of total)
+   - Gap Penalties: 15 (2.5% of total)
+   - Total Objective Value: 591
+
+   Gap Improvement Opportunities:
+
+   Gaps found in schedule (but not penalized):
+     * Group A1_TDA, Week 6 Monday: 2 gap(s) at 15:15-16:45, 17:00-18:30
+     * Group A1_TDA, Week 3 Tuesday: 1 gap(s) at 17:00-18:30
+     * Group A1_TDA, Week 4 Tuesday: 1 gap(s) at 10:00-11:30
+     * Group A1_TDA, Week 7 Tuesday: 1 gap(s) at 10:00-11:30
+     * Group A1_TDA, Week 7 Monday: 2 gap(s) at 13:30-15:00, 15:15-16:45
+     * Group A1_TDA, Week 5 Tuesday: 2 gap(s) at 13:30-15:00, 15:15-16:45
+     * Group A1_TDA, Week 2 Friday: 1 gap(s) at 10:00-11:30
+     * Group A1_TDA, Week 7 Friday: 1 gap(s) at 13:30-15:00
+     * Group A2_TDB, Week 5 Tuesday: 2 gap(s) at 13:30-15:00, 15:15-16:45
+     * Group A2_TDB, Week 6 Friday: 1 gap(s) at 13:30-15:00
+     * Group A3_TDC, Week 1 Monday: 1 gap(s) at 10:00-11:30
+     * Group A3_TDC, Week 6 Friday: 1 gap(s) at 10:00-11:30
+     * Group A3_TDC, Week 1 Tuesday: 2 gap(s) at 15:15-16:45, 17:00-18:30
+
+   This could indicate that the gap minimization is not working correctly.
+
+5. ONLINE-PHYSICAL TRANSITIONS
+   - Total transitions in schedule: 0
+   No transitions found - online courses are optimally grouped!
+
+6. LATE TIMESLOT ANALYSIS
+   - Late timeslots: 17:00-18:30, 18:45-20:15
+   - Courses in late timeslots: 37 (17.6% of all courses)
+
+   Distribution by group:
+     - A3_TDC: 20 late courses
+     - A2_TDB: 10 late courses
+     - A1_TDA: 7 late courses
+
+   Sample late courses:
+     1. Basic Maths for A1_TDA
+        Week 6 Monday at 18:45-20:15
+        Room: L101, Teacher: Timothé Solé
+     2. Basic Physics for A1_TDA
+        Week 7 Tuesday at 18:45-20:15
+        Room: Online, Teacher: Renaud Cerfbeer
+     3. Basic Informatics for A1_TDA
+        Week 3 Tuesday at 18:45-20:15
+        Room: L104, Teacher: Henry DAboville
+     4. Basic Informatics for A1_TDA
+        Week 7 Monday at 18:45-20:15
+        Room: L104, Teacher: Henry DAboville
+     5. Basic Informatics for A1_TDA
+        Week 7 Tuesday at 17:00-18:30
+        Room: Online, Teacher: Henry DAboville
+     ... and 32 more late courses
+
+
+==== END OF INTELLIGENCE REPORT ====
+
+
+Computational time: 306.893 s
+Best objective value: 591
+Total solutions found: 20
