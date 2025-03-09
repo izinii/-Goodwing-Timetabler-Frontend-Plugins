@@ -1,0 +1,3 @@
+[submodule "Goodwing-Timetabler"]
+	path = Goodwing-Timetabler
+	url = https://github.com/izinii/Goodwing-Timetabler.git
