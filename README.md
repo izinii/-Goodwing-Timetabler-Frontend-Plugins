@@ -7,3 +7,4 @@ The folder `Goodwing-Timetabler` is a submodule pointing to the **Goodwing-Timet
 ### Be carefull
 If the submodule is modified, it must be committed and pushed separately from the main repository.
 This requires navigating into the submodule folder and executing the necessary Git commands to save the changes.
+And THEN it is possible to push the main repo.
